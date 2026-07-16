@@ -65,12 +65,8 @@ void Error_Handler(void);
 #define BEMF_B_GPIO_Port GPIOA
 #define BEMB_C_Pin GPIO_PIN_3
 #define BEMB_C_GPIO_Port GPIOA
-#define I_A_Pin GPIO_PIN_5
-#define I_A_GPIO_Port GPIOA
-#define I_B_Pin GPIO_PIN_6
-#define I_B_GPIO_Port GPIOA
-#define I_C_Pin GPIO_PIN_7
-#define I_C_GPIO_Port GPIOA
+#define V_NEUT_Pin GPIO_PIN_0
+#define V_NEUT_GPIO_Port GPIOB
 #define DSHOT_Pin GPIO_PIN_4
 #define DSHOT_GPIO_Port GPIOB
 
