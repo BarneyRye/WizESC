@@ -52,10 +52,10 @@ void MX_ADC1_Init(void)
   hadc1.Init.ScanConvMode = ADC_SCAN_ENABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   hadc1.Init.LowPowerAutoWait = DISABLE;
-  hadc1.Init.ContinuousConvMode = ENABLE;
-  hadc1.Init.NbrOfConversion = 4;
+  hadc1.Init.ContinuousConvMode = DISABLE;
+  hadc1.Init.NbrOfConversion = 5;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
-  hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIG_T8_TRGO;
+  hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIG_T1_TRGO;
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
   hadc1.Init.DMAContinuousRequests = ENABLE;
   hadc1.Init.Overrun = ADC_OVR_DATA_OVERWRITTEN;
@@ -112,6 +112,15 @@ void MX_ADC1_Init(void)
   {
     Error_Handler();
   }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_15;
+  sConfig.Rank = ADC_REGULAR_RANK_5;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
   /* USER CODE BEGIN ADC1_Init 2 */
 
   /* USER CODE END ADC1_Init 2 */
@@ -150,7 +159,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* adcHandle)
     PA3     ------> ADC1_IN4
     PB0     ------> ADC1_IN15
     */
-    GPIO_InitStruct.Pin = VBAT_ADC_Pin|BEMF_A_Pin|BEMF_B_Pin|BEMB_C_Pin;
+    GPIO_InitStruct.Pin = VBAT_ADC_Pin|BEMF_A_Pin|BEMF_B_Pin|BEMF_C_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -205,7 +214,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
     PA3     ------> ADC1_IN4
     PB0     ------> ADC1_IN15
     */
-    HAL_GPIO_DeInit(GPIOA, VBAT_ADC_Pin|BEMF_A_Pin|BEMF_B_Pin|BEMB_C_Pin);
+    HAL_GPIO_DeInit(GPIOA, VBAT_ADC_Pin|BEMF_A_Pin|BEMF_B_Pin|BEMF_C_Pin);
 
     HAL_GPIO_DeInit(V_NEUT_GPIO_Port, V_NEUT_Pin);
 

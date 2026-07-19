@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"name": "WizESC",
+			"path": ".."
+		},
+		{
+			"name": "Include",
+			"path": "../Core/Inc/"
+		},
+		{
+			"name": "Src",
+			"path": "../Core/Src/"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"[c]": {
+			"editor.defaultFormatter": "ms-vscode.cpptools"
+		},
+		"[cpp]": {
+			"editor.defaultFormatter": "ms-vscode.cpptools"
+		},
+		"C_Cpp.formatting": "clangFormat",
+		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 4, ColumnLimit: 100 }",
+		"[json]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
+		"[jsonc]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
+		"cSpell.words": [
+			"CubeMX",
+			"HAL",
+			"STM32",
+			"STM32G474",
+			"WizESC",
+			"clang",
+			"clangd",
+			"gpio",
+			"ioc"
+		],
+		"todo-tree.general.tags": [
+			"TODO",
+			"FIXME",
+			"NOTE",
+			"BUG"
+		]
+	}
+}
