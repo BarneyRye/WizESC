@@ -3,11 +3,11 @@ G04 Layer_Color=0*
 G04 Board_Origin=15690000|23390000*
 %FSLAX26Y26*%
 %MOIN*%
-%TF.SameCoordinates,2387B3BA-7E70-44A9-A7D8-991F4F74411A*%
+%TF.SameCoordinates,9E92D350-B91B-406F-BA99-B7A6051064C1*%
 %TF.FilePolarity,Positive*%
 %TF.FileFunction,NonPlated,1,4,NPTH,Drill*%
 %TF.Part,Single*%
 G01*
 G75*
-%TF.MD5,d3ea6f08f9cc05084adc7cf3a8aecf72*%
+%TF.MD5,68cea499247a3d9e5d86ba2177293b1f*%
 M02*

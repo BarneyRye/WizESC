@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: ESC_PCB.PcbDoc   19/07/2026  16:24:51
+NCDrill File Report For: ESC_PCB.PcbDoc   21/07/2026  11:01:45
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top signal to Bottom Signal
@@ -7,9 +7,9 @@ ASCII Plated RoundHoles File : ESC_PCB-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.3mm)                                             Round             120       PTH        15.64inch (397.20mm)
-T2      16mil (0.4mm)                                             Round             102       PTH        19.43inch (493.42mm)
+T1      12mil (0.3mm)                                             Round             127       PTH        15.35inch (389.93mm)
+T2      16mil (0.4mm)                                             Round             97        PTH        18.68inch (474.38mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              222
+Totals                                                                              224
 
 Total Processing Time (hh:mm:ss) : 00:00:00

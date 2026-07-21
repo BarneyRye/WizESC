@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MKVTNSUS
 
 [Document6]
-DocumentPath=WizESC_Gerbers_CAM.Cam
+DocumentPath=ESC_Gerbers_CAM.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -152,7 +152,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=WizESC_Drill_CAM.Cam
+DocumentPath=ESC_Drill_CAM.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -169,134 +169,70 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for WizESC_PCB\Design Rule Check - ESC_PCB.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB-Plated.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument3]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument6]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GBR1
 DItemRevisionGUID=
 
-[GeneratedDocument9]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GBR2
 DItemRevisionGUID=
 
-[GeneratedDocument10]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument11]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GM
 DItemRevisionGUID=
 
-[GeneratedDocument12]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GP1
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GP2
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Copper_Plane_1.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Copper_Plane_2.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Copper_Signal_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Copper_Signal_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Legend_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Legend_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_NPTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Paste_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Paste_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Profile.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_PTH_Drill.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Soldermask_Bot.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for WizESC_PCB\ESC_PCB_Soldermask_Top.gbr
-DItemRevisionGUID=
-
-[GeneratedDocument33]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for WizESC_PCB\Pick Place for ESC_PCB.csv
 DItemRevisionGUID=
 
@@ -732,9 +668,9 @@ Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=
 Configuration1_Name5=VisibleOrder
-Configuration1_Item5=Comment=142|Designator=100|Footprint=100|LCSC=117|Quantity=67|Manufacturer=100|Manufacturer Part Number=160
+Configuration1_Item5=Rating=121|LCSC=117|Manufacturer Part Number=160|Manufacturer=100|Comment=142|Designator=100|Quantity=67
 Configuration1_Name6=VisibleOrder_Base
-Configuration1_Item6=Comment=142|Designator=100|Footprint=100|LCSC=117|Quantity=67|Manufacturer=100|Manufacturer Part Number=160
+Configuration1_Item6=Rating=121|LCSC=117|Manufacturer Part Number=160|Manufacturer=100|Comment=142|Designator=100|Quantity=67
 Configuration1_Name7=VisibleOrder_Consolidated
 Configuration1_Item7=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Quantity=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 Configuration1_Name8=VisibleOrder_Flat
