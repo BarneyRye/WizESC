@@ -39,8 +39,7 @@ Full-resolution PDF: [WizESC_Sch_PDF.pdf](WizESC_PCB/Visual%20Output%20Files/Wiz
 
 Battery voltage feeds the power stage directly and is stepped down to 3V3 by an
 **AP63203WU-7** synchronous buck (4.7 µH inductor L1, 2 × 22 µF output). An **SMBJ16A** TVS
-diode across the input clamps transients. The analogue supply is split off through an
-**MPZ2012S601** ferrite bead with its own decoupling.
+diode across the input clamps transients. The analogue supply is split off through a ferrite bead with its own decoupling.
 
 ### Gate drive
 
@@ -54,7 +53,7 @@ from the datasheet equations in
 ### Sensing
 
 - **Back-EMF** — each phase is divided 100k:18k into a comparator input, with the virtual
-  neutral point formed by a 3 × 10k star and filtered by a 10 nF capacitor. Phase A uses COMP2,
+  neutral point formed by a 3 × 10k star and filtered by a 1 nF capacitor. Phase A uses COMP2,
   phases B and C share COMP1.
 - **Battery voltage** — 100k:10k divider into PA6 (ADC2_IN3), giving a divider ratio of 11.
 - **Temperature** — NTC divider footprint on PB1 (ADC1_IN12). No thermistor is fitted in the

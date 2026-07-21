@@ -5,8 +5,8 @@ C:\Users\Barne\Documents\BarneyDocs\AltiumProjects\Custom_ESC\WizESC_PCB\Project
 File Design Information:
 
 Date:       21/07/26
-Time:       11:07
-Revision:   1d6c9a9cea9a7a2b384cadadccc35352b313eae3
+Time:       12:29
+Revision:   829bdfaa98009c4bf68e2e55ab15b8f1b8c72a6a
 Variant:    No variations
 Units used: mil
 
@@ -47,7 +47,7 @@ Units used: mil
 "IC1","DRV8300DPWR","TopLayer","SOP65P640X120-20N","1861.000","699.000","0","Integrated Circuit"
 "FB1","MPZ2012S601ATD25","TopLayer","BEADC2112X105N","1481.000","416.000","0","Ferrite Beads 600 @ 100MHz 0805"
 "D1","SMBJ16A","TopLayer","FP-DO-214AA-MFG","283.000","646.000","90","TVS DIODE 16VWM 26VC SMBJ"
-"C25","100pF","TopLayer","CAP_0402","1137.000","646.000","0","Capacitor SMD 0402"
+"C25","1nF","TopLayer","CAP_0402","1137.000","646.000","0","Capacitor SMD 0402"
 "C24","22uF","TopLayer","CAP_0402","767.000","687.998","90","Capacitor SMD 0402"
 "C23","22uF","TopLayer","CAP_0402","822.000","686.998","90","Capacitor SMD 0402"
 "C22","10uF","TopLayer","CAP_1206","791.000","529.998","270","Capacitor SMD 1206"
